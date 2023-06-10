@@ -1,0 +1,39 @@
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-container h1,
+  .resume-container h4 {
+    color: #222222;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .resume-container h1 {
+    margin-top: 0.5rem;
+  }
+  
+  .resume-container h4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .resume-container h3,
+  .resume-container p,
+  .resume-container h5{
+    color: #666666;
+    line-height: 1.5;
+  }
+  
+  .resume-container a {
+    color: #00AA55; /* Darker green */
+    text-decoration: none;
+  }
+  
+  .resume-container a:hover {
+    text-decoration: underline;
+  }
+  
