@@ -6,8 +6,7 @@
     margin: 0;
     padding: 1rem;
     height: 80px;
-    color: #707070; /* Steely grey */
-    background: #c0c0c0; /* Steely grey background */
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
   }
   
   .nav-item {
@@ -17,17 +16,18 @@
   .nav-link {
     display: inline-block;
     padding: 0.5rem 1rem;
-    font-size: 1.2rem;
-    color: #00AA55; /* Darker green */
+    font-size: 1.5rem;
+    font-family:monospace;
+    color: #ffffff; /* Darker green */
     text-decoration: none;
     border-radius: 20px;
-    background: #ffffff; /* White background */
+    background: #000000; /* White background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Button shadow */
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
   
   .nav-link:hover {
-    background-color: #f2f2f2; /* Hover background color */
+    background-color: #2c2c2c; /* Hover background color */
     transform: scale(1.05); /* Hover transform effect */
   }
   

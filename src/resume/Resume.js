@@ -11,7 +11,7 @@ function Resume(){
             <p>Enthusiastic Entry Level Software Engineer with a journalism background, combining software engineering skills with effective communication. Detail-oriented with a commitment to quality assurance and adherence to coding standards. Skilled in collaborative workflows and iterative development. Eager to contribute a unique perspective to software development, emphasizing effective communication, attention to detail, and high-quality results.</p>
             <h3>SKILLS</h3>
             <p>Hard Skills: Beginner skills with coding, debugging, software design and testing, and web development; data structures and algorithms</p>
-            <p>Programming Languages and Environments: JavaScript, Python, Flask CSS, Node.js, SQL, and APIs</p>
+            <p>Programming Languages and Environments: TypeScript, JavaScript, Python, Flask CSS, Node.js, SQL, and APIs</p>
             <p>Tools and Software: GitHub</p>
             <h3>EDUCATION</h3>
             <h5>Emerson College</h5>
