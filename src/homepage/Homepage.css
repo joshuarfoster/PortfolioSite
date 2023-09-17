@@ -1,8 +1,9 @@
 .homepage-container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Kavivanar', cursive;
   }
   
   .homepage-container h1,
@@ -36,4 +37,10 @@
   .homepage-container a:hover {
     text-decoration: underline;
   }
-  
+  img {
+    width: 30%
+  }
+  .homepage-sec {
+    display: flex
+  }
+
