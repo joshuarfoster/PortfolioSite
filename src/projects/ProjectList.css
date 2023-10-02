@@ -1,0 +1,13 @@
+.projectList h1{
+    font-family: 'Kavivanar', cursive;
+    color: #666666;
+    text-align: center;
+}
+
+.projects {
+    display: flex
+}
+
+.projectList {
+    min-height: 100vh;
+}

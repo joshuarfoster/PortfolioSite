@@ -1,7 +1,7 @@
 import React from "react";
 import "./Homepage.css"
 import ComputerDeskImage from "../Images/ComputerDesk.png";
-import Rolodeck from "../Images/Rolodeck.png";
+import hour24 from "../Images/24hour.png";
 import Working from "../Images/Working.png";
 import Collaboration from "../Images/Collaboration.png";
 
@@ -17,7 +17,7 @@ function Homepage(){
                 <img src={ComputerDeskImage} alt="Description" />
             </div>
             <div className="homepage-sec">
-                <img src={Rolodeck} alt="Description" />
+                <img src={hour24} alt="Description" />
                 <p>
                 With a journalism background, I possess a keen attention to detail and a commitment to quality assurance, honed through editorial reviews of articles. This meticulousness extends to my approach in software development, ensuring the alignment of code with project requirements and industry best practices. My ability to manage multiple tasks and meet deadlines, developed through journalism's fast-paced environment, translates seamlessly into the dynamic nature of software development.
                 </p>
@@ -35,7 +35,7 @@ function Homepage(){
                 </p>
             </div>
             <h3>Technologies:</h3>
-            <p>HTML | CSS | JavaScript | Python | PHP | Bootstrap | SQL | React | RESTful web services</p>
+            <p>HTML | CSS | JavaScript | Python | Bootstrap | SQL | React | RESTful web services</p>
             <p>Additional tools: git, node.js, npm, jasmine, VSCode; Environments: macOS | Windows</p>
         </div>
         

@@ -1,0 +1,39 @@
+.ProjectCard {
+    display: flex;
+    border: 2px dashed #666666; /* Add a border for better separation */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    min-width: 400px;
+    font-family: 'Kavivanar', cursive;
+    color: #666666
+  }
+  
+  .ProjectCard img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; /* Add space between image and content */
+  }
+  
+  .cardContent {
+    flex: 1; /* Allow content to grow and take remaining space */
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    margin-right: 10px; /* Add space between links */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    margin: 0;
+  }
