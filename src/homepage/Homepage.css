@@ -17,6 +17,14 @@
 }
 .arrow {
   max-height: 7vw;
+  margin-left:10px;
+  margin-right:10px;
+  opacity:50%
+}
+
+.arrow:hover{
+  transform:scale(1.15);
+  opacity:100%
 }
 .radio {
   bottom:0;
@@ -26,5 +34,13 @@
 }
 
 .radio img{
-  width: 75px
+  width: 75px;
+  margin-left:10px;
+  margin-right:10px;
+  opacity: 50%;
+}
+
+.radio img:hover{
+  transform:scale(1.05);
+  opacity:100%;
 }
