@@ -7,15 +7,17 @@
 .content p {
   color: #666666;
   font-family: 'Kavivanar', cursive;
-  font-size: 2.5vw;
+  font-size: 2.2vw;
   max-height: 80vh;
 }
 
 .content img {
   height: 80vh;
-  max-width:50vw;
+  max-width:48vw;
 }
-
+.arrow {
+  max-height: 7vw;
+}
 .radio {
   bottom:0;
   display:flex;

@@ -5,8 +5,12 @@ import ComputerDeskImage from "../Images/ComputerDesk.png";
 import hour24 from "../Images/24hour.png";
 import Working from "../Images/Working.png";
 import Collaboration from "../Images/Collaboration.png";
-import EmptyBubble from "../Images/EmptyBubble.png"
-import FilledBubble from "../Images/FilledBubble.png"
+import EmptyBubble from "../Images/EmptyBubble.png";
+import FilledBubble from "../Images/FilledBubble.png";
+import RightArrow from "../Images/RightArrow.png";
+import LeftArrow from "../Images/LeftArrow.png"
+
+
 
 
 
@@ -16,9 +20,12 @@ function Homepage(){
     const [slide, setSlide] = useState(1);
 
 
+
+
     return(
         <div>
             <div className="content">
+                <img className="arrow" src={LeftArrow} onClick={() => setSlide((slide + 2) % 4 + 1)}/>
                 {slide === 1 && <img src={sources[0]} />}
                 {slide === 2 && <img src={sources[1]} />}
                 {slide === 3 && <img src={sources[2]} />}
@@ -27,6 +34,7 @@ function Homepage(){
                 {slide === 2 && <p>{content[1]}</p>}
                 {slide === 3 && <p>{content[2]}</p>}
                 {slide === 4 && <p>{content[3]}</p>}
+                <img className="arrow" src={RightArrow}  onClick={() => setSlide(slide % 4+1)}/>
             </div>
             <form className="radio">
                 <img src = {slide === 1 ? FilledBubble: EmptyBubble} onClick = {() => setSlide(1)}/>
