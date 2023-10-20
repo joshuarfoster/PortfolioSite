@@ -1,46 +1,28 @@
-.homepage-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: 'Kavivanar', cursive;
-  }
-  
-  .homepage-container h1,
-  .homepage-container h4 {
-    color: #494949;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .homepage-container h1 {
-    margin-top: 0.5rem;
-  }
-  
-  .homepage-container h4 {
-    margin-bottom: 1.5rem;
-  }
-  
-  .homepage-container h3,
-  .homepage-container p,
-  .homepage-container h5{
-    color: #666666;
-    line-height: 1.5;
-    font-size: 25px;
-  }
-  
-  .homepage-container a {
-    color: #00AA55; /* Darker green */
-    text-decoration: none;
-  }
-  
-  .homepage-container a:hover {
-    text-decoration: underline;
-  }
-  img {
-    width: 30%
-  }
-  .homepage-sec {
-    display: flex
-  }
+.content{
+  display: flex;
+  align-items: center; 
+  width: 100%;
+}
 
+.content p {
+  color: #666666;
+  font-family: 'Kavivanar', cursive;
+  font-size: 2.5vw;
+  max-height: 80vh;
+}
+
+.content img {
+  height: 80vh;
+  max-width:50vw;
+}
+
+.radio {
+  bottom:0;
+  display:flex;
+  justify-content: space-between;
+  width:100%
+}
+
+.radio img{
+  width: 75px
+}
