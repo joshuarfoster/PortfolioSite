@@ -4,16 +4,15 @@
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    width: 700px;
-    min-width: 400px;
+    width: 30%;
     font-family: 'Kavivanar', cursive;
     color: #666666
   }
   
   .ProjectCard img {
-    max-width: 100%;
-    height: auto;
+    height:fit-content;
     margin-right: 20px; /* Add space between image and content */
+    width: 30%
   }
   
   .cardContent {
